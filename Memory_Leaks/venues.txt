@@ -1,0 +1,12 @@
+Cortese 3 Binghamton, NY
+Consols 5 Endicott, NY
+Tonys 4 Endicott, NY
+Little_Venice 6 Binghamton, NY
+Cortese 3 Binghamton, NY (should reject as duplicate)
+Consols 5 Endicott, NY (should reject as duplicate)
+Tonys 4 Endicott, NY (should reject as duplicate)
+Little_Venice 6 Binghamton, NY (should reject as duplicate)
+Little_Venice 6 Binghamton, NY (should reject as duplicate)
+Little_Venice 6 Binghamton, NY (should reject as duplicate)
+Franks 5 Maine, NY
+Franks 5 Maine, NY (should reject as duplicate)
