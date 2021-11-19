@@ -28,7 +28,7 @@ do
     then
         printf "\nExecuting for: $DIR"
         cd ./"$DIR";
-        rm $student_executable
+        rm $student_executable 2>/dev/null
         rm -rf STUDENT_OUTPUT_DIR
         
         cp "$STUDENT_MAIN_DIRPATH/$student_executable" .;
