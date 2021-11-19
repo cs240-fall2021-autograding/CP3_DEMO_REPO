@@ -1,0 +1,15 @@
+C_ReservationOK_1 user03
+C_QuickDinnerOK user03
+C_ReservationOK_1 user04
+C_ReservationOK_1 user05
+F_ExclusivePartyOK_1 user10
+F_ExclusivePartyOK_2 user10
+F_ExclusivePartyOK_3 user10
+F_ExclusivePartyOK_1 user11
+F_ExclusivePartyOK_2 user11
+F_ExclusivePartyOK_3 user11
+F_ReservationOK_1 user19
+F_ReservationOK_1 user20
+F_ReservationOK_1 user22
+F_ReservationOK_1 user23
+F_ReservationOK_1 user24

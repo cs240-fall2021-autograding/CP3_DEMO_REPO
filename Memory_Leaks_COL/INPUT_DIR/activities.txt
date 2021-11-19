@@ -1,0 +1,13 @@
+C_ReservationOK_1 mlewis 17:00:00 11-06-2021 19:00:00 11-06-2021 Cortese n
+C_ReservationOK_2 user00 16:00:00 11-06-2021 18:00:00 11-06-2021 Cortese n
+C_ReservationOK_3 user10 17:00:00 11-06-2021 19:00:00 11-06-2021 Cortese n
+C_QuickDinnerOK user20 16:01:02 11-06-2021 16:01:44 11-06-2021 Cortese n
+F_ExclusivePartyOK_1 user12 12:12:12 11-06-2021 13:12:00 11-06-2021 Franks y
+F_ExclusivePartyOK_2 user14 14:14:14 11-06-2021 15:14:13 11-06-2021 Franks y
+F_ExclusivePartyOK_3 mlewis 17:00:00 11-06-2021 19:00:00 11-06-2021 Franks y
+F_ExclusivePartyConflict_1 user13 16:59:00 11-06-2021 17:03:00 11-06-2021 Franks y
+F_ExclusivePartyConflict_2 user13 16:59:00 11-06-2021 17:03:00 11-06-2021 Franks n
+F_MealConflict_1 user00 11:00:00 11-06-2021 12:15:00 11-06-2021 Franks n
+F_ReservationConflict_2 user10 15:00:00 11-06-2021 15:01:00 11-06-2021 Franks n
+F_ReservationOK_1 user10 19:00:01 11-06-2021 21:00:00 11-06-2021 Franks n
+F_ReservationOK_2 user10 08:00:00 11-06-2021 09:00:00 11-06-2021 Franks n
