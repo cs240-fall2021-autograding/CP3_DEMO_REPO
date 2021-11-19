@@ -1,0 +1,1 @@
+for d in cp3_textfiles_for_demo/*; do cp <student-executable> "$d"; done
