@@ -1,1 +1,1 @@
-for d in cp3_textfiles_for_demo/*; do cp "replace w/ student-executable" "$d"; done
+for d in cp3_textfiles_for_demo/*; do cp REPLACE_WITH_STUDENT_EXECUTABLE "$d"; done
