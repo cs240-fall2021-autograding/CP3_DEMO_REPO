@@ -1,5 +1,0 @@
-LAB1 mlewis 10:05:00 11-9-2021  11:30:00 11-9-2021 G7 y 0 attending.
-LAB2 jgwak 11:40:00 11-9-2021  13:05:00 11-9-2021 G7 y 0 attending.
-LAB3 hqin 13:15:00 11-9-2021  14:40:00 11-9-2021 G7 y 0 attending.
-LAB4 hqin 14:50:00 11-9-2021  16:15:00 11-9-2021 G7 y 0 attending.
-LAB5 jgwak 16:25:00 11-9-2021  17:50:00 11-9-2021 G7 y 0 attending.

@@ -1,3 +1,0 @@
-AA hpa
-AA hpb
-AB hpe

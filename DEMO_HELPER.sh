@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ $# -ne 0 ]; then
-    echo "bash GEN_STUDENT_OUTPUTS.sh"
+    echo "bash DEMO_HELPER.sh"
     exit 1
 fi
 
