@@ -1,4 +1,4 @@
-1. Clone this repo under student's "cs240-fall21-cp3-*" repository.
+1. Clone this repo under student's "cs240-fall21-cp3-*" dir.
 
 2. Run "bash DEMO_HELPER.sh"
 
