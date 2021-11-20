@@ -32,8 +32,19 @@ do
         rm -rf STUDENT_OUTPUT_DIR
         
         cp "$STUDENT_MAIN_DIRPATH/$student_executable" .;
-        exec_run=$($student_executable INPUT_DIR/venues.txt INPUT_DIR/users.txt INPUT_DIR/activities.txt INPUT_DIR/attendance.txt 2>&1);        
-        mkdir STUDENT_OUTPUT_DIR; mv *txt* STUDENT_OUTPUT_DIR;
+
+        if [[ "$DIR" == "Memory_Leaks_COL" ]];
+        then
+            exec_run=$(valgrind $student_executable INPUT_DIR/venues.txt INPUT_DIR/users.txt INPUT_DIR/activities.txt INPUT_DIR/attendance.txt 2>&1);        
+        else
+            exec_run=$($student_executable INPUT_DIR/venues.txt INPUT_DIR/users.txt INPUT_DIR/activities.txt INPUT_DIR/attendance.txt 2>&1);        
+        fi
+
+        mkdir STUDENT_OUTPUT_DIR; 
+        # There exists differences across students on how/where they output their files. 
+        mv *txt* STUDENT_OUTPUT_DIR 2>/dev/null;
+        mv INPUT_DIR/*cp3out* STUDENT_OUTPUT_DIR 2>/dev/null;
+
         printf "\n\n\n********** Terminal Output for: ' $DIR ' **********\n\n $exec_run\n\n\n" >> "$CLONED_REPO_DIRPATH/TERMINAL_OUTPUTS.txt" ;
 
         cd "$CLONED_REPO_DIRPATH";
